@@ -1,0 +1,22 @@
+body{
+    display: flex;
+}
+
+.card-body{
+    width: 1000px;
+    height: 100vh;
+    border: solid;
+}
+
+.profile{
+    width: 1000px;
+    border: solid;
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+
+.profile_photo{
+    border-radius: 50%;
+}

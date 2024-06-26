@@ -1,0 +1,25 @@
+body{
+    display: flex;
+
+}
+
+.CreatePostBody{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+}
+
+.card-body{
+    width: 600px;
+    height: 100vh;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formCreatePost{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}

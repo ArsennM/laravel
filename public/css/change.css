@@ -1,0 +1,39 @@
+body{
+    width: 85%;
+    height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+}
+
+.card-body{
+    width: 1000px;
+    height: 100vh;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+
+#password_confirmation,#password,#current_password{
+    width: 250px;
+    height: 23px;
+}
+
+.changePasswordDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px
+}
+
+.btn{
+    width: 180px;
+    height: 30px;
+}
