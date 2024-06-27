@@ -14,7 +14,7 @@
     <div class="div1">
     @if($user)
         <img class="profilePhoto" src="{{ asset('storage/' . $user->profile_photo_path) }}">
-        <h1>ssss</h1>
+        
         <h1>{{ $user->name }}</h1>
         
         <div>
